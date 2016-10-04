@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+      <title>Tic Tac Toe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+<body>
+  <div class="app">
+    <div class="msg" id="messages">
+      <div class="sym" id="symbol"><u>Your Symbol</u><br><i class='fa fa-times fa-3x'></i>
+      </div>
+      <div class="score" id="score"><u>Score</u><br>Player 1: 0<br>Computer: 0
+      </div>
+    </div>
+    <div class="row1">
+      <div class="cube pointer col1" id="r1c1">
+      </div>
+      <div class="cube pointer col2" id="r1c2">
+      </div>
+      <div class="cube pointer col3" id="r1c3">
+      </div>
+    </div>
+    <div class="row2">
+      <div class="cube pointer col1" id="r2c1">
+      </div>
+      <div class="cube pointer col2" id="r2c2">
+      </div>
+      <div class="cube pointer col3" id="r2c3">
+      </div>
+    </div>
+    <div class="row3">
+      <div class="cube pointer col1" id="r3c1">
+      </div>
+      <div class="cube pointer col2" id="r3c2">
+      </div>
+      <div class="cube pointer col3" id="r3c3">
+      </div>
+    </div>
+    <div class="popup" id="popup"></div>
+    <div class="buttons">
+      <button type="button" class="btn btn-success" id="btnReset">Reset</button>
+      <button class="btn btn-success" id="btnChange">Change Symbol</button>
+    </div>
+  </div>
+<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.ui.js'></script>
+<script src='js/board.js'></script>
+<script src="js/index.js"></script>
+
+
+</body>
+</html>
